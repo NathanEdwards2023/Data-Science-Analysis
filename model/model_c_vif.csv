@@ -1,0 +1,24 @@
+term,VIF
+Intercept,1.0
+"C(Beer_Style, Treatment(reference='Lager'))[T.Ale]",6.256254303014318
+"C(Beer_Style, Treatment(reference='Lager'))[T.IPA]",5.0357017917173055
+"C(Beer_Style, Treatment(reference='Lager'))[T.Pilsner]",1.9594971051649395
+"C(Beer_Style, Treatment(reference='Lager'))[T.Porter]",5.747192793697283
+"C(Beer_Style, Treatment(reference='Lager'))[T.Sour]",5.392684583887217
+"C(Beer_Style, Treatment(reference='Lager'))[T.Stout]",5.654232753370853
+"C(Beer_Style, Treatment(reference='Lager'))[T.Wheat Beer]",5.333957419815851
+"C(SKU, Treatment(reference='Bottles'))[T.Cans]",1.5184690411677435
+"C(SKU, Treatment(reference='Bottles'))[T.Kegs]",1.4952342312774718
+"C(SKU, Treatment(reference='Bottles'))[T.Pints]",1.5514979575642895
+"C(Location, Treatment(reference='Indiranagar'))[T.Electronic City]",2.2507263124061145
+"C(Location, Treatment(reference='Indiranagar'))[T.HSR Layout]",1.7583549817552437
+"C(Location, Treatment(reference='Indiranagar'))[T.Jayanagar]",1.865776207155487
+"C(Location, Treatment(reference='Indiranagar'))[T.Koramangala]",1.7446985140920992
+"C(Location, Treatment(reference='Indiranagar'))[T.Malleswaram]",2.1798603797776863
+"C(Location, Treatment(reference='Indiranagar'))[T.Marathahalli]",2.3749711584552973
+"C(Location, Treatment(reference='Indiranagar'))[T.Rajajinagar]",2.1361518503359656
+"C(Location, Treatment(reference='Indiranagar'))[T.Whitefield]",1.835157259958525
+"C(Location, Treatment(reference='Indiranagar'))[T.Yelahanka]",2.446872719278544
+Volume_Produced,1.8921473991738749
+Fermentation_Time,5.88069334751594
+Temperature,4.564800691975397

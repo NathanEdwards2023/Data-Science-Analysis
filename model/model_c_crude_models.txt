@@ -1,0 +1,32 @@
+Model C: CRUDE MODELS
+Dependent variable: Loss_During_Bottling_Kegging
+
+  model           dependent_variable         predictor                                                               term         B       SE         t        p  R_squared  Adjusted_R_squared         AIC   N
+Model C Loss_During_Bottling_Kegging        Beer Style                                                          Intercept  2.963889 0.101947 29.072786 0.000000   0.006091           -0.006009 1493.395100 583
+Model C Loss_During_Bottling_Kegging        Beer Style                 C(Beer_Style, Treatment(reference='Lager'))[T.Ale]  0.036111 0.140525  0.256974 0.797291   0.006091           -0.006009 1493.395100 583
+Model C Loss_During_Bottling_Kegging        Beer Style                 C(Beer_Style, Treatment(reference='Lager'))[T.IPA]  0.102240 0.149876  0.682165 0.495409   0.006091           -0.006009 1493.395100 583
+Model C Loss_During_Bottling_Kegging        Beer Style             C(Beer_Style, Treatment(reference='Lager'))[T.Pilsner]  0.110579 0.135477  0.816222 0.414711   0.006091           -0.006009 1493.395100 583
+Model C Loss_During_Bottling_Kegging        Beer Style              C(Beer_Style, Treatment(reference='Lager'))[T.Porter] -0.075317 0.145201 -0.518711 0.604162   0.006091           -0.006009 1493.395100 583
+Model C Loss_During_Bottling_Kegging        Beer Style                C(Beer_Style, Treatment(reference='Lager'))[T.Sour]  0.114683 0.145201  0.789818 0.429960   0.006091           -0.006009 1493.395100 583
+Model C Loss_During_Bottling_Kegging        Beer Style               C(Beer_Style, Treatment(reference='Lager'))[T.Stout] -0.033454 0.145734 -0.229556 0.818518   0.006091           -0.006009 1493.395100 583
+Model C Loss_During_Bottling_Kegging        Beer Style          C(Beer_Style, Treatment(reference='Lager'))[T.Wheat Beer] -0.006313 0.147415 -0.042825 0.965856   0.006091           -0.006009 1493.395100 583
+Model C Loss_During_Bottling_Kegging               SKU                                                          Intercept  2.954362 0.067730 43.620020 0.000000   0.085852            0.081116 1436.625137 583
+Model C Loss_During_Bottling_Kegging               SKU                     C(SKU, Treatment(reference='Bottles'))[T.Cans] -0.144572 0.096783 -1.493769 0.135781   0.085852            0.081116 1436.625137 583
+Model C Loss_During_Bottling_Kegging               SKU                     C(SKU, Treatment(reference='Bottles'))[T.Kegs]  0.489020 0.098046  4.987647 0.000001   0.085852            0.081116 1436.625137 583
+Model C Loss_During_Bottling_Kegging               SKU                    C(SKU, Treatment(reference='Bottles'))[T.Pints] -0.133072 0.094853 -1.402937 0.161172   0.085852            0.081116 1436.625137 583
+Model C Loss_During_Bottling_Kegging          Location                                                          Intercept  2.953125 0.107628 27.438182 0.000000   0.018742            0.003329 1489.926902 583
+Model C Loss_During_Bottling_Kegging          Location C(Location, Treatment(reference='Indiranagar'))[T.Electronic City]  0.126562 0.152209  0.831502 0.406036   0.018742            0.003329 1489.926902 583
+Model C Loss_During_Bottling_Kegging          Location      C(Location, Treatment(reference='Indiranagar'))[T.HSR Layout] -0.069125 0.162515 -0.425345 0.670745   0.018742            0.003329 1489.926902 583
+Model C Loss_During_Bottling_Kegging          Location       C(Location, Treatment(reference='Indiranagar'))[T.Jayanagar] -0.009125 0.162515 -0.056149 0.955243   0.018742            0.003329 1489.926902 583
+Model C Loss_During_Bottling_Kegging          Location     C(Location, Treatment(reference='Indiranagar'))[T.Koramangala] -0.104849 0.156096 -0.671696 0.502048   0.018742            0.003329 1489.926902 583
+Model C Loss_During_Bottling_Kegging          Location     C(Location, Treatment(reference='Indiranagar'))[T.Malleswaram] -0.134257 0.159912 -0.839568 0.401501   0.018742            0.003329 1489.926902 583
+Model C Loss_During_Bottling_Kegging          Location    C(Location, Treatment(reference='Indiranagar'))[T.Marathahalli]  0.157169 0.149954  1.048113 0.295028   0.018742            0.003329 1489.926902 583
+Model C Loss_During_Bottling_Kegging          Location     C(Location, Treatment(reference='Indiranagar'))[T.Rajajinagar]  0.139857 0.156813  0.891875 0.372834   0.018742            0.003329 1489.926902 583
+Model C Loss_During_Bottling_Kegging          Location      C(Location, Treatment(reference='Indiranagar'))[T.Whitefield]  0.241957 0.154069  1.570441 0.116865   0.018742            0.003329 1489.926902 583
+Model C Loss_During_Bottling_Kegging          Location       C(Location, Treatment(reference='Indiranagar'))[T.Yelahanka]  0.026185 0.156096  0.167751 0.866838   0.018742            0.003329 1489.926902 583
+Model C Loss_During_Bottling_Kegging   Volume Produced                                                          Intercept  2.896185 0.107236 27.007649 0.000000   0.001728            0.000010 1483.948468 583
+Model C Loss_During_Bottling_Kegging   Volume Produced                                                    Volume_Produced  0.000037 0.000037  1.002989 0.316284   0.001728            0.000010 1483.948468 583
+Model C Loss_During_Bottling_Kegging Fermentation Time                                                          Intercept  2.947452 0.092373 31.907987 0.000000   0.000596           -0.001124 1484.609362 583
+Model C Loss_During_Bottling_Kegging Fermentation Time                                                  Fermentation_Time  0.003796 0.006448  0.588722 0.556277   0.000596           -0.001124 1484.609362 583
+Model C Loss_During_Bottling_Kegging       Temperature                                                          Intercept  3.100464 0.162504 19.079259 0.000000   0.000724           -0.000996 1484.534692 583
+Model C Loss_During_Bottling_Kegging       Temperature                                                        Temperature -0.005789 0.008922 -0.648889 0.516667   0.000724           -0.000996 1484.534692 583

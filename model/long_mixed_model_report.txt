@@ -1,0 +1,25 @@
+LONG-FORMAT MIXED-EFFECTS MODEL
+Observations: 1,749
+Batches/random-intercept groups: 583
+Formula: Loss_Value ~ C(Loss_Stage, Treatment(reference='Brewing')) + C(Beer_Style, Treatment(reference='Lager')) + C(SKU, Treatment(reference='Bottles')) + C(Location, Treatment(reference='Indiranagar')) + Volume_Produced + Fermentation_Time + Temperature
+Random effect: Batch_ID random intercept
+
+LOSS-STAGE MEANS
+      Loss_Stage   Mean     SD   N
+         Brewing 2.4115 0.8419 583
+    Fermentation 3.7533 1.0756 583
+Bottling/Kegging 2.9976 0.8625 583
+
+LOSS-STAGE JOINT WALD TEST
+Chi-square(2) = 620.5076, p = 1.81335e-135
+
+APA-STYLE ANOVA TABLE
+           Source  df  Wald chi-square      p
+        Intercept   1          27.4066 0.0000
+       Loss stage   2         620.5076 0.0000
+       Beer style   7           7.2247 0.4059
+              SKU   3          14.9667 0.0018
+         Location   9           4.1246 0.9030
+Production volume   1           3.7104 0.0541
+Fermentation time   1           4.4729 0.0344
+      Temperature   1           1.8274 0.1764

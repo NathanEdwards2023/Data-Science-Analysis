@@ -1,0 +1,32 @@
+Model B: CRUDE MODELS
+Dependent variable: Loss_During_Brewing
+
+  model  dependent_variable         predictor                                                               term         B       SE         t        p  R_squared  Adjusted_R_squared         AIC   N
+Model B Loss_During_Brewing        Beer Style                                                          Intercept  2.481944 0.099336 24.985460 0.000000   0.009688           -0.002368 1463.135749 583
+Model B Loss_During_Brewing        Beer Style                 C(Beer_Style, Treatment(reference='Lager'))[T.Ale] -0.065694 0.136925 -0.479786 0.631562   0.009688           -0.002368 1463.135749 583
+Model B Loss_During_Brewing        Beer Style                 C(Beer_Style, Treatment(reference='Lager'))[T.IPA] -0.015815 0.146036 -0.108298 0.913797   0.009688           -0.002368 1463.135749 583
+Model B Loss_During_Brewing        Beer Style             C(Beer_Style, Treatment(reference='Lager'))[T.Pilsner] -0.165987 0.132006 -1.257417 0.209113   0.009688           -0.002368 1463.135749 583
+Model B Loss_During_Brewing        Beer Style              C(Beer_Style, Treatment(reference='Lager'))[T.Porter]  0.020913 0.141482  0.147812 0.882543   0.009688           -0.002368 1463.135749 583
+Model B Loss_During_Brewing        Beer Style                C(Beer_Style, Treatment(reference='Lager'))[T.Sour]  0.029484 0.141482  0.208396 0.834994   0.009688           -0.002368 1463.135749 583
+Model B Loss_During_Brewing        Beer Style               C(Beer_Style, Treatment(reference='Lager'))[T.Stout] -0.160205 0.142000 -1.128203 0.259705   0.009688           -0.002368 1463.135749 583
+Model B Loss_During_Brewing        Beer Style          C(Beer_Style, Treatment(reference='Lager'))[T.Wheat Beer] -0.177399 0.143639 -1.235034 0.217322   0.009688           -0.002368 1463.135749 583
+Model B Loss_During_Brewing               SKU                                                          Intercept  2.404698 0.069092 34.804434 0.000000   0.001658           -0.003514 1459.843584 583
+Model B Loss_During_Brewing               SKU                     C(SKU, Treatment(reference='Bottles'))[T.Cans]  0.012085 0.098730  0.122407 0.902619   0.001658           -0.003514 1459.843584 583
+Model B Loss_During_Brewing               SKU                     C(SKU, Treatment(reference='Bottles'))[T.Kegs] -0.043669 0.100018 -0.436606 0.662560   0.001658           -0.003514 1459.843584 583
+Model B Loss_During_Brewing               SKU                    C(SKU, Treatment(reference='Bottles'))[T.Pints]  0.052721 0.096760  0.544866 0.586055   0.001658           -0.003514 1459.843584 583
+Model B Loss_During_Brewing          Location                                                          Intercept  2.375000 0.105379 22.537775 0.000000   0.012807           -0.002699 1465.296629 583
+Model B Loss_During_Brewing          Location C(Location, Treatment(reference='Indiranagar'))[T.Electronic City]  0.114062 0.149028  0.765377 0.444362   0.012807           -0.002699 1465.296629 583
+Model B Loss_During_Brewing          Location      C(Location, Treatment(reference='Indiranagar'))[T.HSR Layout]  0.055000 0.159118  0.345655 0.729729   0.012807           -0.002699 1465.296629 583
+Model B Loss_During_Brewing          Location       C(Location, Treatment(reference='Indiranagar'))[T.Jayanagar]  0.193000 0.159118  1.212934 0.225655   0.012807           -0.002699 1465.296629 583
+Model B Loss_During_Brewing          Location     C(Location, Treatment(reference='Indiranagar'))[T.Koramangala] -0.030172 0.152833 -0.197420 0.843569   0.012807           -0.002699 1465.296629 583
+Model B Loss_During_Brewing          Location     C(Location, Treatment(reference='Indiranagar'))[T.Malleswaram]  0.143868 0.156570  0.918875 0.358548   0.012807           -0.002699 1465.296629 583
+Model B Loss_During_Brewing          Location    C(Location, Treatment(reference='Indiranagar'))[T.Marathahalli] -0.154412 0.146820 -1.051708 0.293377   0.012807           -0.002699 1465.296629 583
+Model B Loss_During_Brewing          Location     C(Location, Treatment(reference='Indiranagar'))[T.Rajajinagar]  0.012719 0.153535  0.082843 0.934005   0.012807           -0.002699 1465.296629 583
+Model B Loss_During_Brewing          Location      C(Location, Treatment(reference='Indiranagar'))[T.Whitefield]  0.084016 0.150849  0.556957 0.577775   0.012807           -0.002699 1465.296629 583
+Model B Loss_During_Brewing          Location       C(Location, Treatment(reference='Indiranagar'))[T.Yelahanka]  0.006034 0.152833  0.039484 0.968518   0.012807           -0.002699 1465.296629 583
+Model B Loss_During_Brewing   Volume Produced                                                          Intercept  2.310325 0.104674 22.071592 0.000000   0.001805            0.000087 1455.757929 583
+Model B Loss_During_Brewing   Volume Produced                                                    Volume_Produced  0.000037 0.000036  1.025031 0.305775   0.001805            0.000087 1455.757929 583
+Model B Loss_During_Brewing Fermentation Time                                                          Intercept  2.370718 0.090179 26.289136 0.000000   0.000414           -0.001307 1456.570077 583
+Model B Loss_During_Brewing Fermentation Time                                                  Fermentation_Time  0.003086 0.006294  0.490335 0.624082   0.000414           -0.001307 1456.570077 583
+Model B Loss_During_Brewing       Temperature                                                          Intercept  2.405107 0.158686 15.156392 0.000000   0.000003           -0.001718 1456.809576 583
+Model B Loss_During_Brewing       Temperature                                                        Temperature  0.000359 0.008712  0.041247 0.967113   0.000003           -0.001718 1456.809576 583

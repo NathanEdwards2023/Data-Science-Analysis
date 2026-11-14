@@ -1,0 +1,70 @@
+ESTIMATED MARGINAL MEANS
+Categorical predictors averaged over all categorical-level combinations.
+Volume_Produced, Fermentation_Time, and Temperature held at sample means.
+  model     factor Beer_Style  estimated_marginal_mean     SKU        Location
+Model A Beer_Style        Ale                 3.865397     NaN             NaN
+Model A Beer_Style        IPA                 3.580969     NaN             NaN
+Model A Beer_Style      Lager                 4.159958     NaN             NaN
+Model A Beer_Style    Pilsner                 3.788859     NaN             NaN
+Model A Beer_Style     Porter                 3.739552     NaN             NaN
+Model A Beer_Style       Sour                 3.625134     NaN             NaN
+Model A Beer_Style      Stout                 3.520818     NaN             NaN
+Model A Beer_Style Wheat Beer                 3.657698     NaN             NaN
+Model A        SKU        NaN                 3.724292 Bottles             NaN
+Model A        SKU        NaN                 3.615669    Cans             NaN
+Model A        SKU        NaN                 3.800746    Kegs             NaN
+Model A        SKU        NaN                 3.828486   Pints             NaN
+Model A   Location        NaN                 3.807268     NaN Electronic City
+Model A   Location        NaN                 3.718759     NaN      HSR Layout
+Model A   Location        NaN                 3.735185     NaN     Indiranagar
+Model A   Location        NaN                 3.607165     NaN       Jayanagar
+Model A   Location        NaN                 3.846026     NaN     Koramangala
+Model A   Location        NaN                 3.854296     NaN     Malleswaram
+Model A   Location        NaN                 3.781817     NaN    Marathahalli
+Model A   Location        NaN                 3.758372     NaN     Rajajinagar
+Model A   Location        NaN                 3.560028     NaN      Whitefield
+Model A   Location        NaN                 3.754065     NaN       Yelahanka
+Model B Beer_Style        Ale                 2.544874     NaN             NaN
+Model B Beer_Style        IPA                 2.561049     NaN             NaN
+Model B Beer_Style      Lager                 2.218895     NaN             NaN
+Model B Beer_Style    Pilsner                 2.071152     NaN             NaN
+Model B Beer_Style     Porter                 2.599429     NaN             NaN
+Model B Beer_Style       Sour                 2.603894     NaN             NaN
+Model B Beer_Style      Stout                 2.432640     NaN             NaN
+Model B Beer_Style Wheat Beer                 2.415866     NaN             NaN
+Model B        SKU        NaN                 2.428908 Bottles             NaN
+Model B        SKU        NaN                 2.450842    Cans             NaN
+Model B        SKU        NaN                 2.379171    Kegs             NaN
+Model B        SKU        NaN                 2.464978   Pints             NaN
+Model B   Location        NaN                 2.543837     NaN Electronic City
+Model B   Location        NaN                 2.434870     NaN      HSR Layout
+Model B   Location        NaN                 2.326050     NaN     Indiranagar
+Model B   Location        NaN                 2.550318     NaN       Jayanagar
+Model B   Location        NaN                 2.284542     NaN     Koramangala
+Model B   Location        NaN                 2.553386     NaN     Malleswaram
+Model B   Location        NaN                 2.269049     NaN    Marathahalli
+Model B   Location        NaN                 2.440100     NaN     Rajajinagar
+Model B   Location        NaN                 2.419263     NaN      Whitefield
+Model B   Location        NaN                 2.488331     NaN       Yelahanka
+Model C Beer_Style        Ale                 3.029162     NaN             NaN
+Model C Beer_Style        IPA                 3.077880     NaN             NaN
+Model C Beer_Style      Lager                 2.797655     NaN             NaN
+Model C Beer_Style    Pilsner                 2.926914     NaN             NaN
+Model C Beer_Style     Porter                 2.980173     NaN             NaN
+Model C Beer_Style       Sour                 3.167143     NaN             NaN
+Model C Beer_Style      Stout                 3.022732     NaN             NaN
+Model C Beer_Style Wheat Beer                 3.051326     NaN             NaN
+Model C        SKU        NaN                 2.969671 Bottles             NaN
+Model C        SKU        NaN                 2.815647    Cans             NaN
+Model C        SKU        NaN                 3.430800    Kegs             NaN
+Model C        SKU        NaN                 2.810374   Pints             NaN
+Model C   Location        NaN                 3.082068     NaN Electronic City
+Model C   Location        NaN                 2.894107     NaN      HSR Layout
+Model C   Location        NaN                 2.867074     NaN     Indiranagar
+Model C   Location        NaN                 2.989168     NaN       Jayanagar
+Model C   Location        NaN                 2.802975     NaN     Koramangala
+Model C   Location        NaN                 2.895191     NaN     Malleswaram
+Model C   Location        NaN                 3.189020     NaN    Marathahalli
+Model C   Location        NaN                 3.143300     NaN     Rajajinagar
+Model C   Location        NaN                 3.091832     NaN      Whitefield
+Model C   Location        NaN                 3.111497     NaN       Yelahanka

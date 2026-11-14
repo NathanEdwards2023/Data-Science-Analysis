@@ -1,0 +1,37 @@
+MODEL B: BREWING LOSS
+Formula: Loss_During_Brewing ~ C(Beer_Style, Treatment(reference='Lager')) + C(SKU, Treatment(reference='Bottles')) + C(Location, Treatment(reference='Indiranagar')) + Volume_Produced + Fermentation_Time + Temperature
+Observations: 583
+R-squared: 0.032241
+Adjusted R-squared: -0.005778
+F-statistic: 0.848035
+F-test p-value: 0.665095
+Residual standard error: 0.844322
+
+REFERENCE LEVELS
+Beer_Style: Lager; SKU: Bottles; Location: Indiranagar
+
+COEFFICIENTS
+                                                              term     Coef.  Std.Err.         t    P>|t|    [0.025   0.975]
+                                                         Intercept  1.798999  0.480128  3.746920 0.000198  0.855928 2.742070
+                C(Beer_Style, Treatment(reference='Lager'))[T.Ale]  0.325979  0.254197  1.282386 0.200238 -0.173318 0.825276
+                C(Beer_Style, Treatment(reference='Lager'))[T.IPA]  0.342154  0.254541  1.344200 0.179428 -0.157818 0.842126
+            C(Beer_Style, Treatment(reference='Lager'))[T.Pilsner] -0.147742  0.133106 -1.109963 0.267492 -0.409190 0.113705
+             C(Beer_Style, Treatment(reference='Lager'))[T.Porter]  0.380535  0.257907  1.475474 0.140647 -0.126048 0.887118
+               C(Beer_Style, Treatment(reference='Lager'))[T.Sour]  0.384999  0.249826  1.541069 0.123865 -0.105711 0.875709
+              C(Beer_Style, Treatment(reference='Lager'))[T.Stout]  0.213745  0.257409  0.830372 0.406682 -0.291860 0.719350
+         C(Beer_Style, Treatment(reference='Lager'))[T.Wheat Beer]  0.196971  0.254888  0.772774 0.439982 -0.303683 0.697625
+                    C(SKU, Treatment(reference='Bottles'))[T.Cans]  0.021934  0.100150  0.219015 0.826718 -0.174781 0.218650
+                    C(SKU, Treatment(reference='Bottles'))[T.Kegs] -0.049737  0.101105 -0.491934 0.622959 -0.248329 0.148855
+                   C(SKU, Treatment(reference='Bottles'))[T.Pints]  0.036070  0.098589  0.365863 0.714606 -0.157580 0.229721
+C(Location, Treatment(reference='Indiranagar'))[T.Electronic City]  0.217787  0.167815  1.297780 0.194897 -0.111837 0.547410
+     C(Location, Treatment(reference='Indiranagar'))[T.HSR Layout]  0.108820  0.165595  0.657146 0.511357 -0.216443 0.434083
+      C(Location, Treatment(reference='Indiranagar'))[T.Jayanagar]  0.224268  0.170578  1.314750 0.189132 -0.110784 0.559319
+    C(Location, Treatment(reference='Indiranagar'))[T.Koramangala] -0.041508  0.154315 -0.268983 0.788042 -0.344616 0.261599
+    C(Location, Treatment(reference='Indiranagar'))[T.Malleswaram]  0.227336  0.179590  1.265864 0.206088 -0.125415 0.580087
+   C(Location, Treatment(reference='Indiranagar'))[T.Marathahalli] -0.057001  0.167886 -0.339522 0.734344 -0.386764 0.272762
+    C(Location, Treatment(reference='Indiranagar'))[T.Rajajinagar]  0.114050  0.172079  0.662774 0.507748 -0.223950 0.452049
+     C(Location, Treatment(reference='Indiranagar'))[T.Whitefield]  0.093213  0.154767  0.602280 0.547232 -0.210782 0.397208
+      C(Location, Treatment(reference='Indiranagar'))[T.Yelahanka]  0.162281  0.182749  0.887999 0.374922 -0.196676 0.521238
+                                                   Volume_Produced  0.000070  0.000050  1.400747 0.161844 -0.000028 0.000168
+                                                 Fermentation_Time  0.024162  0.015298  1.579396 0.114810 -0.005887 0.054210
+                                                       Temperature -0.011088  0.018652 -0.594501 0.552417 -0.047724 0.025547

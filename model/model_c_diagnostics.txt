@@ -1,0 +1,33 @@
+MODEL C: BOTTLING/KEGGING LOSS DIAGNOSTICS
+Observations: 583
+Normality, Shapiro-Wilk W: 0.993256; p-value: 0.0102204
+Homoscedasticity, Breusch-Pagan LM: 31.789537; LM p-value: 0.0810556; F: 1.468020; F p-value: 0.0781563
+Independence, Durbin-Watson statistic: 1.944576
+Multicollinearity, maximum VIF excluding intercept: 6.256254
+                                                              term      VIF
+                                                         Intercept 1.000000
+                C(Beer_Style, Treatment(reference='Lager'))[T.Ale] 6.256254
+                C(Beer_Style, Treatment(reference='Lager'))[T.IPA] 5.035702
+            C(Beer_Style, Treatment(reference='Lager'))[T.Pilsner] 1.959497
+             C(Beer_Style, Treatment(reference='Lager'))[T.Porter] 5.747193
+               C(Beer_Style, Treatment(reference='Lager'))[T.Sour] 5.392685
+              C(Beer_Style, Treatment(reference='Lager'))[T.Stout] 5.654233
+         C(Beer_Style, Treatment(reference='Lager'))[T.Wheat Beer] 5.333957
+                    C(SKU, Treatment(reference='Bottles'))[T.Cans] 1.518469
+                    C(SKU, Treatment(reference='Bottles'))[T.Kegs] 1.495234
+                   C(SKU, Treatment(reference='Bottles'))[T.Pints] 1.551498
+C(Location, Treatment(reference='Indiranagar'))[T.Electronic City] 2.250726
+     C(Location, Treatment(reference='Indiranagar'))[T.HSR Layout] 1.758355
+      C(Location, Treatment(reference='Indiranagar'))[T.Jayanagar] 1.865776
+    C(Location, Treatment(reference='Indiranagar'))[T.Koramangala] 1.744699
+    C(Location, Treatment(reference='Indiranagar'))[T.Malleswaram] 2.179860
+   C(Location, Treatment(reference='Indiranagar'))[T.Marathahalli] 2.374971
+    C(Location, Treatment(reference='Indiranagar'))[T.Rajajinagar] 2.136152
+     C(Location, Treatment(reference='Indiranagar'))[T.Whitefield] 1.835157
+      C(Location, Treatment(reference='Indiranagar'))[T.Yelahanka] 2.446873
+                                                   Volume_Produced 1.892147
+                                                 Fermentation_Time 5.880693
+                                                       Temperature 4.564801
+Influential observations, Cook's distance threshold (4/n): 0.006861
+Count above threshold: 20
+Maximum Cook's distance: 0.012814 at row index 188

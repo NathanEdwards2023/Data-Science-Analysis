@@ -1,0 +1,82 @@
+Table 1
+Ordinary Least Squares Regression Results for Production Loss Outcomes
+
+Model fit
+  Model     R²  Adjusted R²       AIC      F      p   N
+Model A 0.0476       0.0102 1756.0558 1.2718 0.1828 583
+Model B 0.0322      -0.0058 1479.7048 0.8480 0.6651 583
+Model C 0.1113       0.0764 1458.1383 3.1892 0.0000 583
+
+Coefficients
+  Model                                                               Term       B     SE       t      p
+Model A                                                          Intercept  2.4275 0.6085  3.9890 0.0001
+Model A                 C(Beer_Style, Treatment(reference='Lager'))[T.Ale] -0.2946 0.3222 -0.9143 0.3610
+Model A                 C(Beer_Style, Treatment(reference='Lager'))[T.IPA] -0.5790 0.3226 -1.7947 0.0732
+Model A             C(Beer_Style, Treatment(reference='Lager'))[T.Pilsner] -0.3711 0.1687 -2.1997 0.0282
+Model A              C(Beer_Style, Treatment(reference='Lager'))[T.Porter] -0.4204 0.3269 -1.2861 0.1989
+Model A                C(Beer_Style, Treatment(reference='Lager'))[T.Sour] -0.5348 0.3166 -1.6890 0.0918
+Model A               C(Beer_Style, Treatment(reference='Lager'))[T.Stout] -0.6391 0.3263 -1.9590 0.0506
+Model A          C(Beer_Style, Treatment(reference='Lager'))[T.Wheat Beer] -0.5023 0.3231 -1.5547 0.1206
+Model A                     C(SKU, Treatment(reference='Bottles'))[T.Cans] -0.1086 0.1269 -0.8557 0.3925
+Model A                     C(SKU, Treatment(reference='Bottles'))[T.Kegs]  0.0765 0.1281  0.5966 0.5510
+Model A                    C(SKU, Treatment(reference='Bottles'))[T.Pints]  0.1042 0.1250  0.8338 0.4047
+Model A C(Location, Treatment(reference='Indiranagar'))[T.Electronic City]  0.0721 0.2127  0.3389 0.7348
+Model A      C(Location, Treatment(reference='Indiranagar'))[T.HSR Layout] -0.0164 0.2099 -0.0783 0.9376
+Model A       C(Location, Treatment(reference='Indiranagar'))[T.Jayanagar] -0.1280 0.2162 -0.5921 0.5540
+Model A     C(Location, Treatment(reference='Indiranagar'))[T.Koramangala]  0.1108 0.1956  0.5667 0.5711
+Model A     C(Location, Treatment(reference='Indiranagar'))[T.Malleswaram]  0.1191 0.2276  0.5233 0.6010
+Model A    C(Location, Treatment(reference='Indiranagar'))[T.Marathahalli]  0.0466 0.2128  0.2191 0.8266
+Model A     C(Location, Treatment(reference='Indiranagar'))[T.Rajajinagar]  0.0232 0.2181  0.1063 0.9154
+Model A      C(Location, Treatment(reference='Indiranagar'))[T.Whitefield] -0.1752 0.1962 -0.8929 0.3723
+Model A       C(Location, Treatment(reference='Indiranagar'))[T.Yelahanka]  0.0189 0.2316  0.0815 0.9351
+Model A                                                    Volume_Produced  0.0000 0.0001  0.1508 0.8802
+Model A                                                  Fermentation_Time  0.0303 0.0194  1.5645 0.1183
+Model A                                                        Temperature  0.0721 0.0236  3.0487 0.0024
+Model B                                                          Intercept  1.7990 0.4801  3.7469 0.0002
+Model B                 C(Beer_Style, Treatment(reference='Lager'))[T.Ale]  0.3260 0.2542  1.2824 0.2002
+Model B                 C(Beer_Style, Treatment(reference='Lager'))[T.IPA]  0.3422 0.2545  1.3442 0.1794
+Model B             C(Beer_Style, Treatment(reference='Lager'))[T.Pilsner] -0.1477 0.1331 -1.1100 0.2675
+Model B              C(Beer_Style, Treatment(reference='Lager'))[T.Porter]  0.3805 0.2579  1.4755 0.1406
+Model B                C(Beer_Style, Treatment(reference='Lager'))[T.Sour]  0.3850 0.2498  1.5411 0.1239
+Model B               C(Beer_Style, Treatment(reference='Lager'))[T.Stout]  0.2137 0.2574  0.8304 0.4067
+Model B          C(Beer_Style, Treatment(reference='Lager'))[T.Wheat Beer]  0.1970 0.2549  0.7728 0.4400
+Model B                     C(SKU, Treatment(reference='Bottles'))[T.Cans]  0.0219 0.1002  0.2190 0.8267
+Model B                     C(SKU, Treatment(reference='Bottles'))[T.Kegs] -0.0497 0.1011 -0.4919 0.6230
+Model B                    C(SKU, Treatment(reference='Bottles'))[T.Pints]  0.0361 0.0986  0.3659 0.7146
+Model B C(Location, Treatment(reference='Indiranagar'))[T.Electronic City]  0.2178 0.1678  1.2978 0.1949
+Model B      C(Location, Treatment(reference='Indiranagar'))[T.HSR Layout]  0.1088 0.1656  0.6571 0.5114
+Model B       C(Location, Treatment(reference='Indiranagar'))[T.Jayanagar]  0.2243 0.1706  1.3148 0.1891
+Model B     C(Location, Treatment(reference='Indiranagar'))[T.Koramangala] -0.0415 0.1543 -0.2690 0.7880
+Model B     C(Location, Treatment(reference='Indiranagar'))[T.Malleswaram]  0.2273 0.1796  1.2659 0.2061
+Model B    C(Location, Treatment(reference='Indiranagar'))[T.Marathahalli] -0.0570 0.1679 -0.3395 0.7343
+Model B     C(Location, Treatment(reference='Indiranagar'))[T.Rajajinagar]  0.1140 0.1721  0.6628 0.5077
+Model B      C(Location, Treatment(reference='Indiranagar'))[T.Whitefield]  0.0932 0.1548  0.6023 0.5472
+Model B       C(Location, Treatment(reference='Indiranagar'))[T.Yelahanka]  0.1623 0.1827  0.8880 0.3749
+Model B                                                    Volume_Produced  0.0001 0.0000  1.4007 0.1618
+Model B                                                  Fermentation_Time  0.0242 0.0153  1.5794 0.1148
+Model B                                                        Temperature -0.0111 0.0187 -0.5945 0.5524
+Model C                                                          Intercept  2.4868 0.4713  5.2762 0.0000
+Model C                 C(Beer_Style, Treatment(reference='Lager'))[T.Ale]  0.2315 0.2495  0.9277 0.3539
+Model C                 C(Beer_Style, Treatment(reference='Lager'))[T.IPA]  0.2802 0.2499  1.1215 0.2626
+Model C             C(Beer_Style, Treatment(reference='Lager'))[T.Pilsner]  0.1293 0.1307  0.9892 0.3230
+Model C              C(Beer_Style, Treatment(reference='Lager'))[T.Porter]  0.1825 0.2532  0.7209 0.4713
+Model C                C(Beer_Style, Treatment(reference='Lager'))[T.Sour]  0.3695 0.2452  1.5066 0.1325
+Model C               C(Beer_Style, Treatment(reference='Lager'))[T.Stout]  0.2251 0.2527  0.8907 0.3735
+Model C          C(Beer_Style, Treatment(reference='Lager'))[T.Wheat Beer]  0.2537 0.2502  1.0138 0.3111
+Model C                     C(SKU, Treatment(reference='Bottles'))[T.Cans] -0.1540 0.0983 -1.5667 0.1178
+Model C                     C(SKU, Treatment(reference='Bottles'))[T.Kegs]  0.4611 0.0993  4.6460 0.0000
+Model C                    C(SKU, Treatment(reference='Bottles'))[T.Pints] -0.1593 0.0968 -1.6459 0.1003
+Model C C(Location, Treatment(reference='Indiranagar'))[T.Electronic City]  0.2150 0.1647  1.3051 0.1924
+Model C      C(Location, Treatment(reference='Indiranagar'))[T.HSR Layout]  0.0270 0.1626  0.1663 0.8680
+Model C       C(Location, Treatment(reference='Indiranagar'))[T.Jayanagar]  0.1221 0.1675  0.7291 0.4662
+Model C     C(Location, Treatment(reference='Indiranagar'))[T.Koramangala] -0.0641 0.1515 -0.4231 0.6724
+Model C     C(Location, Treatment(reference='Indiranagar'))[T.Malleswaram]  0.0281 0.1763  0.1595 0.8733
+Model C    C(Location, Treatment(reference='Indiranagar'))[T.Marathahalli]  0.3219 0.1648  1.9535 0.0513
+Model C     C(Location, Treatment(reference='Indiranagar'))[T.Rajajinagar]  0.2762 0.1689  1.6352 0.1026
+Model C      C(Location, Treatment(reference='Indiranagar'))[T.Whitefield]  0.2248 0.1519  1.4793 0.1396
+Model C       C(Location, Treatment(reference='Indiranagar'))[T.Yelahanka]  0.2444 0.1794  1.3625 0.1736
+Model C                                                    Volume_Produced  0.0001 0.0000  2.0944 0.0367
+Model C                                                  Fermentation_Time  0.0068 0.0150  0.4512 0.6520
+Model C                                                        Temperature -0.0132 0.0183 -0.7227 0.4702
+
+Note. B = unstandardized coefficient; SE = standard error. Reference groups are Lager, Bottles, and Indiranagar.

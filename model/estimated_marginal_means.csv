@@ -1,0 +1,67 @@
+model,factor,Beer_Style,estimated_marginal_mean,SKU,Location
+Model A,Beer_Style,Ale,3.8653968471385793,,
+Model A,Beer_Style,IPA,3.580968554648833,,
+Model A,Beer_Style,Lager,4.159957521238244,,
+Model A,Beer_Style,Pilsner,3.788859362742728,,
+Model A,Beer_Style,Porter,3.739552313965522,,
+Model A,Beer_Style,Sour,3.6251343474814623,,
+Model A,Beer_Style,Stout,3.5208182509587473,,
+Model A,Beer_Style,Wheat Beer,3.657697629315281,,
+Model A,SKU,,3.724291924801046,Bottles,
+Model A,SKU,,3.615668886896112,Cans,
+Model A,SKU,,3.800745797980782,Kegs,
+Model A,SKU,,3.8284858040667586,Pints,
+Model A,Location,,3.807267911819107,,Electronic City
+Model A,Location,,3.7187593073259255,,HSR Layout
+Model A,Location,,3.7351851227126422,,Indiranagar
+Model A,Location,,3.6071648352923926,,Jayanagar
+Model A,Location,,3.8460258651167174,,Koramangala
+Model A,Location,,3.8542959109680965,,Malleswaram
+Model A,Location,,3.7818167850825763,,Marathahalli
+Model A,Location,,3.7583724383930517,,Rajajinagar
+Model A,Location,,3.56002765790021,,Whitefield
+Model A,Location,,3.754065199751027,,Yelahanka
+Model B,Beer_Style,Ale,2.5448737557092076,,
+Model B,Beer_Style,IPA,2.561048949815509,,
+Model B,Beer_Style,Lager,2.2188947479129566,,
+Model B,Beer_Style,Pilsner,2.0711524294181913,,
+Model B,Beer_Style,Porter,2.5994293958745756,,
+Model B,Beer_Style,Sour,2.6038935783878405,,
+Model B,Beer_Style,Stout,2.4326398906652345,,
+Model B,Beer_Style,Wheat Beer,2.415865800839896,,
+Model B,SKU,,2.428907958233776,Bottles,
+Model B,SKU,,2.450842302693962,Cans,
+Model B,SKU,,2.379170859046291,Kegs,
+Model B,SKU,,2.4649781543376763,Pints,
+Model B,Location,,2.5438370741432466,,Electronic City
+Model B,Location,,2.4348704179485923,,HSR Layout
+Model B,Location,,2.326050299597421,,Indiranagar
+Model B,Location,,2.550318118298708,,Jayanagar
+Model B,Location,,2.284542040015714,,Koramangala
+Model B,Location,,2.553386319503592,,Malleswaram
+Model B,Location,,2.269049400273322,,Marathahalli
+Model B,Location,,2.4400999471297817,,Rajajinagar
+Model B,Location,,2.41926346380957,,Whitefield
+Model B,Location,,2.488331105059315,,Yelahanka
+Model C,Beer_Style,Ale,3.0291618748064124,,
+Model C,Beer_Style,IPA,3.0778795121260303,,
+Model C,Beer_Style,Lager,2.7976546301148892,,
+Model C,Beer_Style,Pilsner,2.926914189413268,,
+Model C,Beer_Style,Porter,2.9801731566025227,,
+Model C,Beer_Style,Sour,3.167142730790215,,
+Model C,Beer_Style,Stout,3.0227323168487503,,
+Model C,Beer_Style,Wheat Beer,3.051326142115555,,
+Model C,SKU,,2.9696713750186903,Bottles,
+Model C,SKU,,2.8156465944576023,Cans,
+Model C,SKU,,3.4308004335774838,Kegs,
+Model C,SKU,,2.8103738733550445,Pints,
+Model C,Location,,3.0820681782321735,,Electronic City
+Model C,Location,,2.89410687267775,,HSR Layout
+Model C,Location,,2.867073521920181,,Indiranagar
+Model C,Location,,2.9891678789344254,,Jayanagar
+Model C,Location,,2.802974729395696,,Koramangala
+Model C,Location,,2.895190811925234,,Malleswaram
+Model C,Location,,3.189020397076724,,Marathahalli
+Model C,Location,,3.1432996308799166,,Rajajinagar
+Model C,Location,,3.091831511562997,,Whitefield
+Model C,Location,,3.111497158416957,,Yelahanka

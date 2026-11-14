@@ -1,0 +1,70 @@
+MODEL A: FERMENTATION LOSS
+Formula: Loss_During_Fermentation ~ C(Beer_Style, Treatment(reference='Lager')) + C(SKU, Treatment(reference='Bottles')) + C(Location, Treatment(reference='Indiranagar')) + Volume_Produced + Fermentation_Time + Temperature
+Observations: 583
+R-squared: 0.047587
+Adjusted R-squared: 0.010171
+F-statistic: 1.271823
+F-test p-value: 0.182834
+Residual standard error: 1.070137
+
+COEFFICIENTS
+                                                              term     Coef.  Std.Err.         t    P>|t|    [0.025    0.975]
+                                                         Intercept  2.427466  0.608538  3.989012 0.000075  1.232170  3.622762
+                C(Beer_Style, Treatment(reference='Lager'))[T.Ale] -0.294561  0.322182 -0.914267 0.360970 -0.927394  0.338273
+                C(Beer_Style, Treatment(reference='Lager'))[T.IPA] -0.578989  0.322618 -1.794656 0.073248 -1.212679  0.054701
+            C(Beer_Style, Treatment(reference='Lager'))[T.Pilsner] -0.371098  0.168705 -2.199688 0.028237 -0.702470 -0.039726
+             C(Beer_Style, Treatment(reference='Lager'))[T.Porter] -0.420405  0.326884 -1.286098 0.198940 -1.062474  0.221664
+               C(Beer_Style, Treatment(reference='Lager'))[T.Sour] -0.534823  0.316642 -1.689047 0.091767 -1.156774  0.087128
+              C(Beer_Style, Treatment(reference='Lager'))[T.Stout] -0.639139  0.326253 -1.959030 0.050605 -1.279968  0.001690
+         C(Beer_Style, Treatment(reference='Lager'))[T.Wheat Beer] -0.502260  0.323059 -1.554702 0.120582 -1.136814  0.132295
+                    C(SKU, Treatment(reference='Bottles'))[T.Cans] -0.108623  0.126935 -0.855736 0.392510 -0.357950  0.140704
+                    C(SKU, Treatment(reference='Bottles'))[T.Kegs]  0.076454  0.128146  0.596615 0.551005 -0.175252  0.328159
+                   C(SKU, Treatment(reference='Bottles'))[T.Pints]  0.104194  0.124957  0.833836 0.404729 -0.141248  0.349636
+C(Location, Treatment(reference='Indiranagar'))[T.Electronic City]  0.072083  0.212697  0.338899 0.734813 -0.345699  0.489864
+     C(Location, Treatment(reference='Indiranagar'))[T.HSR Layout] -0.016426  0.209884 -0.078262 0.937648 -0.428681  0.395829
+      C(Location, Treatment(reference='Indiranagar'))[T.Jayanagar] -0.128020  0.216200 -0.592139 0.553996 -0.552682  0.296641
+    C(Location, Treatment(reference='Indiranagar'))[T.Koramangala]  0.110841  0.195587  0.566708 0.571140 -0.273333  0.495015
+    C(Location, Treatment(reference='Indiranagar'))[T.Malleswaram]  0.119111  0.227621  0.523286 0.600982 -0.327984  0.566206
+   C(Location, Treatment(reference='Indiranagar'))[T.Marathahalli]  0.046632  0.212787  0.219147 0.826615 -0.371326  0.464590
+    C(Location, Treatment(reference='Indiranagar'))[T.Rajajinagar]  0.023187  0.218102  0.106314 0.915371 -0.405210  0.451585
+     C(Location, Treatment(reference='Indiranagar'))[T.Whitefield] -0.175157  0.196160 -0.892932 0.372277 -0.560457  0.210142
+      C(Location, Treatment(reference='Indiranagar'))[T.Yelahanka]  0.018880  0.231625  0.081511 0.935064 -0.436080  0.473840
+                                                   Volume_Produced  0.000010  0.000063  0.150813 0.880178 -0.000115  0.000134
+                                                 Fermentation_Time  0.030335  0.019390  1.564479 0.118270 -0.007751  0.068420
+                                                       Temperature  0.072071  0.023640  3.048720 0.002407  0.025638  0.118505
+
+REFERENCE LEVELS
+Beer_Style: Lager; SKU: Bottles; Location: Indiranagar
+
+MODEL DIAGNOSTICS
+Normality, Shapiro-Wilk W: 0.985142; p-value: 1.16835e-05
+Homoscedasticity, Breusch-Pagan LM: 18.732201; LM p-value: 0.661802; F: 0.845024; F p-value: 0.669079
+Independence, Durbin-Watson statistic: 2.065184
+Multicollinearity, maximum VIF excluding intercept: 6.256254
+                                                              term      VIF
+                                                         Intercept 1.000000
+                C(Beer_Style, Treatment(reference='Lager'))[T.Ale] 6.256254
+                C(Beer_Style, Treatment(reference='Lager'))[T.IPA] 5.035702
+            C(Beer_Style, Treatment(reference='Lager'))[T.Pilsner] 1.959497
+             C(Beer_Style, Treatment(reference='Lager'))[T.Porter] 5.747193
+               C(Beer_Style, Treatment(reference='Lager'))[T.Sour] 5.392685
+              C(Beer_Style, Treatment(reference='Lager'))[T.Stout] 5.654233
+         C(Beer_Style, Treatment(reference='Lager'))[T.Wheat Beer] 5.333957
+                    C(SKU, Treatment(reference='Bottles'))[T.Cans] 1.518469
+                    C(SKU, Treatment(reference='Bottles'))[T.Kegs] 1.495234
+                   C(SKU, Treatment(reference='Bottles'))[T.Pints] 1.551498
+C(Location, Treatment(reference='Indiranagar'))[T.Electronic City] 2.250726
+     C(Location, Treatment(reference='Indiranagar'))[T.HSR Layout] 1.758355
+      C(Location, Treatment(reference='Indiranagar'))[T.Jayanagar] 1.865776
+    C(Location, Treatment(reference='Indiranagar'))[T.Koramangala] 1.744699
+    C(Location, Treatment(reference='Indiranagar'))[T.Malleswaram] 2.179860
+   C(Location, Treatment(reference='Indiranagar'))[T.Marathahalli] 2.374971
+    C(Location, Treatment(reference='Indiranagar'))[T.Rajajinagar] 2.136152
+     C(Location, Treatment(reference='Indiranagar'))[T.Whitefield] 1.835157
+      C(Location, Treatment(reference='Indiranagar'))[T.Yelahanka] 2.446873
+                                                   Volume_Produced 1.892147
+                                                 Fermentation_Time 5.880693
+                                                       Temperature 4.564801
+Influential observations, Cook's distance threshold (4/n): 0.006861
+Count above threshold: 21
+Maximum Cook's distance: 0.029774 at row index 46
